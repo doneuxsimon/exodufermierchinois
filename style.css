@@ -5,3 +5,19 @@ li {
 li:before {
     content: "- ";
 }
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+
+p {
+    font-family: serif;
+    line-height: 150%;
+    font-size: 18px;
+    color: rgb(7, 7, 87);
+}
