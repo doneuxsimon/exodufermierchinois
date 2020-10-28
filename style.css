@@ -8,16 +8,105 @@ li:before {
 
 .good {
     color: green;
+    text-transform: uppercase;
 }
 
 .bad {
     color: red;
+    text-transform: uppercase;
 }
 
+.lien {
+    color: rgb(22, 150, 150);
+}
+
+a {
+    color: rgb(22, 150, 150);
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 242);
+}
+
+
+blockquote {
+    max-width: 50%;
+    margin-left: 25%;
+    font-family: serif;
+    line-height: 150%;
+    font-size: 160%;
+    background-color: rgb(158, 158, 158);
+    border-color: firebrick;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 p {
     font-family: serif;
     line-height: 150%;
-    font-size: 18px;
-    color: rgb(7, 7, 87);
+    font-size: 20px;
+    color: rgb(53, 20, 95);
+}
+
+body {
+    max-width: 90%;
+    margin-left: 100px;
+    background: -webkit-linear-gradient(90deg, rgb(201, 206, 46), rgb(191, 0, 0));
+    background: linear-gradient(90deg, rgb(201, 206, 46), rgb(191, 0, 0));
+    background-image: url(./file-20190203-75085-1584oa5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom, right;
+}
+
+.chinesefarmer {
+    border-left: 2px rgb(0, 140, 255) solid;
+
+}
+
+.villagers {
+    border-left: 2px rgb(0, 255, 42) solid;
+
+}
+
+header>h1 {
+    background-color: yellow;
+}
+
+.gris {
+    background-color: grey;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.people1 {
+    background-image: url(./bien.png);
+    margin-right: 82%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.people2 {
+    background-image: url(./mal.png);
+    margin-right: 82%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.people3 {
+    background-image: url(./chat.png);
+    margin-right: 82%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
