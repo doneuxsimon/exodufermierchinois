@@ -1,3 +1,7 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 li {
     list-style-type: none;
 }
@@ -17,11 +21,11 @@ li:before {
 }
 
 .lien {
-    color: rgb(22, 150, 150);
+    color: rgb(187, 171, 26);
 }
 
 a {
-    color: rgb(22, 150, 150);
+    color: rgb(187, 171, 26);
 }
 
 a:hover {
@@ -66,7 +70,7 @@ body {
 }
 
 .chinesefarmer {
-    border-left: 2px rgb(0, 140, 255) solid;
+    border-left: 2px rgb(0, 81, 255) solid;
 
 }
 
@@ -76,6 +80,7 @@ body {
 }
 
 header>h1 {
+    text-align: center;
     background-color: yellow;
 }
 
@@ -89,7 +94,7 @@ header>h1 {
 
 .people1 {
     background-image: url(./bien.png);
-    margin-right: 82%;
+    margin-right: 0px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -97,7 +102,7 @@ header>h1 {
 
 .people2 {
     background-image: url(./mal.png);
-    margin-right: 82%;
+    margin-right: 0px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -105,8 +110,59 @@ header>h1 {
 
 .people3 {
     background-image: url(./chat.png);
-    margin-right: 82%;
+    margin-right: 0px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+}
+
+.flex1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    max-width: 600px;
+}
+
+.flex2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.flex3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img2 {
+    padding-right: 50px;
+}
+
+.img3 {
+    padding-right: 50px;
+}
+
+.notification {
+    background: #FFFFDD;
+    padding: 10px;
+    border: 3px solid #DDDDCC;
+    width: 250px;
+    font-weight: bold;
+    color: #333300;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
 }
